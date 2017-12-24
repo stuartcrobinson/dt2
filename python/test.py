@@ -95,7 +95,7 @@ def createTextFromFragsList(seedFrags0):
                         x = x[0:j] + x[j].upper() + x[j + 1:len(x)]
                         frag = x
                         fragsList[i + 1] = frag
-                    del fragsList[i]
+                del fragsList[i]
     return ''.join(fragsList)
 
 
