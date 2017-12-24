@@ -469,7 +469,6 @@ public class Main {
       http://www.fileformat.info/info/charset/UTF-8/list.htm?start=3072
 
 ሏ	ETHIOPIC SYLLABLE LWA (U+120F)	e1888f
-
 ሐ	ETHIOPIC SYLLABLE HHA (U+1210)	e18890
 ሑ	ETHIOPIC SYLLABLE HHU (U+1211)	e18891
 ሒ	ETHIOPIC SYLLABLE HHI (U+1212)	e18892
