@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/.idea/workspace.xml" afterPath="$PROJECT_DIR$/python/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/test.py" afterPath="$PROJECT_DIR$/python/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,7 +85,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1514076615000" expanded="true" signature="2172:2384" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -502,12 +503,12 @@
       <updated>1513838360062</updated>
       <workItem from="1513838361543" duration="45066000" />
       <workItem from="1514006554742" duration="2801000" />
-      <workItem from="1514075192009" duration="649000" />
+      <workItem from="1514075192009" duration="710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48516000" />
+    <option name="totallyTimeSpent" value="48577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="78" width="1852" height="1107" extended-state="0" />
@@ -598,7 +599,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1514076615000" expanded="true" signature="2172:2384" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,7 +649,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1514076615000" expanded="true" signature="2172:2384" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -749,7 +754,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1514076615000" expanded="true" signature="2172:2384" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

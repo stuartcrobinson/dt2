@@ -70,24 +70,6 @@ for i, sentence in enumerate(sentences):
         x[i, t, fragIndex] = 1
     y[i, next_chars[i]] = 1
 
-n_patterns = len(sentence)
-print("Total Patterns: ", n_patterns)
-
-
-# reshape X to be [samples, time steps, features]
-# X = numpy.reshape(dataX, (n_patterns, seq_length, 1))
-
-# no - he recommends one-hot encoding these days
-# # normalize
-# X = X / float(n_vocab)
-
-# X = np_utils.to_categorical(X)  # ????
-
-# one hot encode the output variable
-# y = np_utils.to_categorical(dataY)
-
-# dataX_ = np_utils.to_categorical(dataX)
-
 
 ########################################################################################################
 ########################################################################################################
@@ -147,7 +129,9 @@ model.load_weights(filepath)
 seedFrags = [277, 231, 107, 49, 205, 107, 134, 195, 0, 160, 0]  # victims of
 
 for loop in range(0, 100000):
-    model.fit(x, y, epochs=2, batch_size=500, callbacks=callbacks_list)
+    model.fit(x, y, epochs=2, batch_size=1000, callbacks=callbacks_list)
     print(generateText(model, seedFrags))
 
 # fragsList = ['v', 'i', 'c', 't', 'i', 'm', 's', ' ', 'of', ' ', 'the', ' ', 'ሐ', 'uni', 't', 'ed', ' ', 'ሐ', 'n', 'at', 'ions', ' ', 'ሐ', 'peac', 'e', ' ', 'ሐ', 'priz', 'e', ' ', 'ሐ', 'l', 'a', 'u', 'r', 'e', 'at', 'e', ' ', 'ሐ', 'l', 'a', 'u', 'r', 'e', 'at', 'e', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'm', 'a', 'n', 'c', 'e', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'r', 'i', 'an', ' ', 'ሐ', 'n', 'obel', ' ', 'ሐ', 'peac', 'e', ' ', 'ሐ', 'priz', 'e', ' ', 'for', ' ', 'ሐ', 's', 'u', 'l', 'd', 'a', 'm', 'a', ' ', 'and', ' ', 'ሐ', 'g', 'r', 'o', 'u', 's', ' ', 'ሐ', 'a', 'r', 'm', 'a', 'n', 'c', 'i', 'l', 'a', ' ', 'ሐ', 'r', 'o', 't', 'e', ' ', 'ሐ', 'a', 'l', 'i', 'e', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 's', ' ', 'ሐ', 's', 'o', 'u', 'th', ' ', 'ሐ', 'a', 'f']
+
+
