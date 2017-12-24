@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="539">
-              <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+              <caret line="135" column="4" lean-forward="false" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -346,12 +346,12 @@
       <updated>1513991489964</updated>
       <workItem from="1513991491440" duration="5527000" />
       <workItem from="1514006558938" duration="11330000" />
-      <workItem from="1514075195126" duration="4009000" />
+      <workItem from="1514075195126" duration="4080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20866000" />
+    <option name="totallyTimeSpent" value="20937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="429" y="72" width="1321" height="1089" extended-state="0" />
@@ -470,7 +470,7 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
-          <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <caret line="135" column="4" lean-forward="false" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
           <folding />
         </state>
       </provider>
