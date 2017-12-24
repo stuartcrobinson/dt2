@@ -97,7 +97,8 @@ def createTextFromFragsList(seedFrags0):
                 del fragsList[i]
     return ''.join(fragsList)
 
-def generateText(model, seedFrags):
+def generateText(model, seedFrags_):
+    seedFrags = seedFrags_[:]
     for loop in range(0, 150):
         padded = pad_sequences([seedFrags], seq_length)[0]
         x_pred = np.zeros((1, seq_length, len(fragsUnique)), dtype=np.bool)
@@ -135,3 +136,4 @@ for loop in range(0, 100000):
 # fragsList = ['v', 'i', 'c', 't', 'i', 'm', 's', ' ', 'of', ' ', 'the', ' ', 'ሐ', 'uni', 't', 'ed', ' ', 'ሐ', 'n', 'at', 'ions', ' ', 'ሐ', 'peac', 'e', ' ', 'ሐ', 'priz', 'e', ' ', 'ሐ', 'l', 'a', 'u', 'r', 'e', 'at', 'e', ' ', 'ሐ', 'l', 'a', 'u', 'r', 'e', 'at', 'e', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'm', 'a', 'n', 'c', 'e', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'm', 'i', 'c', ' ', 'ሐ', 'a', 'l', 'a', 'r', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 'r', 'i', 'an', ' ', 'ሐ', 'n', 'obel', ' ', 'ሐ', 'peac', 'e', ' ', 'ሐ', 'priz', 'e', ' ', 'for', ' ', 'ሐ', 's', 'u', 'l', 'd', 'a', 'm', 'a', ' ', 'and', ' ', 'ሐ', 'g', 'r', 'o', 'u', 's', ' ', 'ሐ', 'a', 'r', 'm', 'a', 'n', 'c', 'i', 'l', 'a', ' ', 'ሐ', 'r', 'o', 't', 'e', ' ', 'ሐ', 'a', 'l', 'i', 'e', ' ', 'ሐ', 'a', 'l', 'a', 'r', 'a', 's', ' ', 'ሐ', 's', 'o', 'u', 'th', ' ', 'ሐ', 'a', 'f']
 
 
+# nohup python3 test.py >out20171223.log 2>&1 &
