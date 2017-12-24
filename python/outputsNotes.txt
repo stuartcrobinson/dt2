@@ -1,0 +1,79 @@
+
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6970Epoch 00000: loss improved from inf to 1.69698, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.6970
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6806Epoch 00001: loss improved from 1.69698 to 1.68071, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.6807
+Victims of Alia KyeE Danad Korop Jamen Aliam Sakharo. The Norwegian Nobel Committee has awarded the Peace Prize to Kout Africa has been awarded the Nobel Peace Prize for 2000 to Mimmy Ame
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6674Epoch 00000: loss improved from 1.68071 to 1.66737, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.6674
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6536Epoch 00001: loss improved from 1.66737 to 1.65363, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.6536
+Victims of Souraate Aramba Aliman Union and Group Alambad Gremeneve Grobal Africa and Alim Iras Abrams, The Norwegian Nobel Committee has awarded the Nobel Peace Prize for 2003 to
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6408Epoch 00000: loss improved from 1.65363 to 1.64086, saving model to weights.hdf5
+398147/398147 [==============================] - 229s - loss: 1.6409
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6279Epoch 00001: loss improved from 1.64086 to 1.62788, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.6279
+Victims of Sakevad the Nacasamia and Namias Europe General Africa and Grobal Arrest Nobel Peace Prize Laureate Alfred Nobel and Tribule Great Alfred Nobel and NGTTAn), A
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6158Epoch 00000: loss improved from 1.62788 to 1.61595, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.6160
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.6048Epoch 00001: loss improved from 1.61595 to 1.60486, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.6049
+Victims of Keendeeve, Jendoobleck Alam Dankhigh, Pation. The Steria Alege of the United Nations High Commissioner for Refugees was the United Nations High Commissioner for Refugees in Alfred Nobel's
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5937Epoch 00000: loss improved from 1.60486 to 1.59377, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.5938
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5845Epoch 00001: loss improved from 1.59377 to 1.58452, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.5845
+Victims of Namiam Sarama Manda Mamanda Aramos Mother Teresa Mundamia and Grameen Bank was a survive of the United Nations Peacekeeping Forces in Africa and Alfred Nobel's will to the Unit
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5730Epoch 00000: loss improved from 1.58452 to 1.57306, saving model to weights.hdf5
+398147/398147 [==============================] - 229s - loss: 1.5731
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5632Epoch 00001: loss improved from 1.57306 to 1.56313, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.5631
+Victims of Ariament. The Nobel Peace Prize to Mendary General Africa and the Peace Prize to South Africa and the United Nations Peace Prize Laureate Alfred Nobel and Peace Prize Laureate Alfred Nobel
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5541Epoch 00000: loss improved from 1.56313 to 1.55395, saving model to weights.hdf5
+398147/398147 [==============================] - 229s - loss: 1.5540
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5421Epoch 00001: loss improved from 1.55395 to 1.54212, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.5421
+Victims of the United States in Alfred Nobel's will. The Norwegian Nobel Committee has awarded the Peace Prize to the Peace Prize to the United Nations and the United Nations and the United Nations and the United Nations. The Norweg
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5331Epoch 00000: loss improved from 1.54212 to 1.53312, saving model to weights.hdf5
+398147/398147 [==============================] - 229s - loss: 1.5331
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5284Epoch 00001: loss improved from 1.53312 to 1.52853, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.5285
+Victims of the Ircoppe of East and Mother Teresa. The Nobel Peace Prize for 2004. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We are struggle to achieve a movement of the
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5174Epoch 00000: loss improved from 1.52853 to 1.51741, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.5174
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.5062Epoch 00001: loss improved from 1.51741 to 1.50620, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.5062
+Victims of the Aroust and the Africa of the United Nations Peacekeeping Forces in Alfred Nobel's will. The Norwegian Nobel Committee has awarded the Peace Prize to President South Africa and the Secretary-G
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4987Epoch 00000: loss improved from 1.50620 to 1.49870, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.4987
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4906Epoch 00001: loss improved from 1.49870 to 1.49059, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.4906
+Victims of SKEAAAMM and Aliagen Laureates have achieved the Nobel Peace Prize to the Nobel Peace Prize for 2003 to Mundaniss in the Nobel Peace Prize to the UN Security Council a
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4852Epoch 00000: loss improved from 1.49059 to 1.48519, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.4852
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4764Epoch 00001: loss improved from 1.48519 to 1.47642, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.4764
+Victims of Fraderom, Poticamar Alember Tire and Ahtisaari and Grownethorta a struggle for the United Nations and the Nobel Peace Prize for 2013. The Norwegian Nobel Committee has decided to award
+Epoch 1/2

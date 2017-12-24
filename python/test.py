@@ -70,11 +70,11 @@ for i, sentence in enumerate(sentences):
         x[i, t, fragIndex] = 1
     y[i, next_chars[i]] = 1
 
-
 ########################################################################################################
 ########################################################################################################
 m_capFrag_fragIndexToCap = {'ሏ': -1, 'ሐ': 0, 'ሑ': 1, 'ሒ': 2, 'ሓ': 3, 'ሔ': 4, 'ሕ': 5, 'ሖ': 6, 'ሗ': 7, 'መ': 8, 'ሙ': 9}
 capFrags = set(m_capFrag_fragIndexToCap.keys())
+
 
 def createTextFromFragsList(seedFrags0):
     seedFrags = seedFrags0[:]
@@ -84,18 +84,20 @@ def createTextFromFragsList(seedFrags0):
         for capFrag in capFrags:
             if capFrag in fragsList:
                 i = fragsList.index(capFrag)
-                if capFrag == 'ሏ':
-                    fragsList[i + 1] = fragsList[i + 1].upper()
-                else:
-                    indexToCap = m_capFrag_fragIndexToCap[capFrag]
-                    j = indexToCap
-                    frag = fragsList[i + 1]
-                    x = frag
-                    x = x[0:j] + x[j].upper() + x[j + 1:len(x)]
-                    frag = x
-                    fragsList[i + 1] = frag
-                del fragsList[i]
+                if i < len(fragsList) - 1:
+                    if capFrag == 'ሏ':
+                        fragsList[i + 1] = fragsList[i + 1].upper()
+                    else:
+                        indexToCap = m_capFrag_fragIndexToCap[capFrag]
+                        j = indexToCap
+                        frag = fragsList[i + 1]
+                        x = frag
+                        x = x[0:j] + x[j].upper() + x[j + 1:len(x)]
+                        frag = x
+                        fragsList[i + 1] = frag
+                    del fragsList[i]
     return ''.join(fragsList)
+
 
 def generateText(model, seedFrags_):
     seedFrags = seedFrags_[:]
@@ -140,7 +142,13 @@ for loop in range(0, 100000):
 
 # https://www.kaggle.com/lystdo/lstm-with-word2vec-embeddings
 
-#http://www.orbifold.net/default/2017/01/10/embedding-and-tokenizer-in-keras/
+# https://stats.stackexchange.com/questions/202544/handling-unknown-words-in-language-modeling-tasks-using-lstm
+
+# https://stats.stackexchange.com/questions/163005/how-to-set-the-dictionary-for-text-analysis-using-neural-networks/163032#163032
+
+# http://www.orbifold.net/default/2017/01/10/embedding-and-tokenizer-in-keras/
+
+# https://www.google.com/search?q=best+way+generate+text+lstm+word2vec+embedding&oq=best+way+generate+text+lstm+word2vec+embedding&aqs=chrome..69i57.11191j0j1&sourceid=chrome&ie=UTF-8
 '''
  the Embedding class does indeed map discrete labels (i.e. words) into a continuous vector space. It should be just as clear that this embedding does not in any way take the semantic similarity of the words into account. Check the source code if want to see it even more clearly.
 
