@@ -99,7 +99,7 @@ def createTextFromFragsList(seedFrags0):
 
 def generateText(model, seedFrags_):
     seedFrags = seedFrags_[:]
-    for loop in range(0, 150):
+    for loop in range(0, 500):
         padded = pad_sequences([seedFrags], seq_length)[0]
         x_pred = np.zeros((1, seq_length, len(fragsUnique)), dtype=np.bool)
         for i, fragIndex in enumerate(padded):
@@ -137,3 +137,12 @@ for loop in range(0, 100000):
 
 
 # nohup python3 test.py >out20171223.log 2>&1 &
+
+# https://www.kaggle.com/lystdo/lstm-with-word2vec-embeddings
+
+#http://www.orbifold.net/default/2017/01/10/embedding-and-tokenizer-in-keras/
+'''
+ the Embedding class does indeed map discrete labels (i.e. words) into a continuous vector space. It should be just as clear that this embedding does not in any way take the semantic similarity of the words into account. Check the source code if want to see it even more clearly.
+
+So if word2vec does bring along some extra info into the game how can you use it together with Keras?
+'''
