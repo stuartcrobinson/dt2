@@ -77,3 +77,346 @@ Epoch 2/2
 398147/398147 [==============================] - 227s - loss: 1.4764
 Victims of Fraderom, Poticamar Alember Tire and Ahtisaari and Grownethorta a struggle for the United Nations and the Nobel Peace Prize for 2013. The Norwegian Nobel Committee has decided to award
 Epoch 1/2
+
+2017-12-24 04:44:36.676672: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-24 04:44:36.789701: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-24 04:44:36.790186: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties:
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-12-24 04:44:36.790204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0
+2017-12-24 04:44:36.790209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y
+2017-12-24 04:44:36.790217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+hello!
+fragsUnique len: 287
+fragIndices len: 398247
+wholeWordsUnique len: 7886
+wholeWordIndices len: 212513
+Vectorization...
+Victims of the Aries of the Organization for the Organization for Europe of Nobel Peace Prize to the United Nations High Commissioner for Refugees in Africa South Africa and ElBarade Ramilial. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to the UN Security Council means to a survive of a struggle for peace and struggle for the situation of the United Nations Peacekeeping Forces in China and Africa and Elie Wiesel (1986), and the Security Council was allowed to seeve to the United Nations Peacekeeping Force in 1971, the Nobel Committee has awarded the Peace Prize to the Peace Prize to the U
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4278Epoch 00000: loss improved from inf to 1.42773, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.4277
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4204Epoch 00001: loss improved from 1.42773 to 1.42039, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.4204
+Victims of Nacima hompheless Nakima. He was a surpower in the Committee in Alfred Nobel's will. The South African strength South Africa have been a strong of the United Nations and the United Nations Peacekeeping Forces have achieved the Nobel Peace Prize to the United Nations Peacekeeping Forces have achieved the Nobel Peace Prize to the United Nations Peacekeeping Forces have achieved the Nobel Peace Prize to the United Nations Peacekeeping Forces have achieved the Nobel Peace Prize to the United Nations Peacekeeping Forces have achieved the Nobel Peace Prize to the United Nations Peacekeeping Forces have achieved the Nobel Peace Prize to the United Nations Peacekeeping Forces have achieved the Nobel
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4143Epoch 00000: loss improved from 1.42039 to 1.41430, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.4143
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4080Epoch 00001: loss improved from 1.41430 to 1.40803, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.4080
+Victims of CA. And the Norwegian Nobel Committee was awarded the Nobel Peace Prize for 1996 to President Gorbachev and South Africa has been a struggle for peace. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have seen them generations of the world to the United Nations Peacekeeping Forces in Africa and Secretary-General Africa to the Soviet Union and Secretary-General Africa to the Secretary-General of the United Nations Peacekeeping Forces in Africa and Secretary-General Africa to the Soviet Union and Secretary-General Africa to the Secretary-General of the United Nations Peacekeeping Forces in A
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4042Epoch 00000: loss improved from 1.40803 to 1.40427, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.4043
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3964Epoch 00001: loss improved from 1.40427 to 1.39632, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3963
+Victims of Mother Teresa, Gandhi of Alix Mothern Eunose Imperate Koid Gammem PAM, Secretary-General Africa and Alfred Nobel is strigeted to a struggle against the United Nations and the Society Grameen Bank. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We are accepted to respect for the struggle for peace and the struggle against the United Nations and the Secretary-General in the Nobel Peace Prize for 2004. We are a self-world dure to support for the African disarmament and peace and close to the survival of the African Union and African African Africa. The Norwegian Nobel Committee
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3924Epoch 00000: loss improved from 1.39632 to 1.39242, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3924
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3853Epoch 00001: loss improved from 1.39242 to 1.38526, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3853
+Victims of Me. Leadures were survived. In 1977 he was a freedom of the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004 to Laureates have the Norwegian Nobel Committee to the United Nations Peacekeeping Forces have been a struggle for peace and civilian population in the world. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the Norwe
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3807Epoch 00000: loss improved from 1.38526 to 1.38077, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3808
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3745Epoch 00001: loss improved from 1.38077 to 1.37451, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3745
+Victims of Neversh and Ariht a Alore Péreas in the UN be in the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2014. We have seen the UN Security Council has been awarded the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to South Africa has been a strong women who support the Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3685Epoch 00000: loss improved from 1.37451 to 1.36854, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3685
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3647Epoch 00001: loss improved from 1.36854 to 1.36463, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3646
+Victims of Second time. The Norwegian Nobel Committee has awarded the Peace Prize to Lech Walesa (1964), Enie Ames Januur, Shirin Ebadi has strong interests to the UN Security Council a India and China in Geneva. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2016 to Iraq a resolution of the United Nations High Commissioner for Refugees in Africa and Secretary-General Africa to the Secretary-General of Childa of Mosicova. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2016 to Iraq a realistic and the Committee would be a support for the Nobel Peace Prize. The Norwegian
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3803Epoch 00000: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.3803
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3619Epoch 00001: loss improved from 1.36463 to 1.36189, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3619
+Victims of the charmess of struggle against the situation in the world. The Norwegian Nobel Committee has awarded the Peace Prize to the Nobel Peace Prize for 2004. We have seen them which is the Norwegian Nobel Committee to Alline Nobel drives have been awarded the Peace Prize to the United Nations and the Second World War the Nobel Peace Prize for 2004. We hope that the Peace Prize has been awarded to the United Nations High Commissioner for Refugees. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We can see the Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We can see the first time in the
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3520Epoch 00000: loss improved from 1.36189 to 1.35196, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3520
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3489Epoch 00001: loss improved from 1.35196 to 1.34882, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3488
+Victims of souprest support situation in the struggle for peace and the struggle against the United Nations and the Secretary-General in the United Nations and the Norwegian Nobel Committee to the United Nations and the Secretary-General in the United Nations and the Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to Kim Dae-jung has a sources of the United Nations and the Soviet Union in 1983, and the Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 1996 to Laureates. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 1996 to Laureates. The Norwegian Nobel Committee has decided to award
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3425Epoch 00000: loss improved from 1.34882 to 1.34245, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3425
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3389Epoch 00001: loss improved from 1.34245 to 1.33896, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3390
+Victims of Midila Momatia and China in 1974. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to President Saura Kohon and the Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to President Saura Kohon and I a Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to President Saura Kohon and I a Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We have seen the Nobel Peace Prize to President Saura Kohon and I a Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3338Epoch 00000: loss improved from 1.33896 to 1.33375, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3337
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3297Epoch 00001: loss improved from 1.33375 to 1.32975, saving model to weights.hdf5
+398147/398147 [==============================] - 229s - loss: 1.3298
+Victims of nevertheraminies and resolute the realisation of the United States in Laureates in China and Muslam Surp. The Nobel Prize Laureates, Paskonsand Ahtisaari in Africa have been a support for the Nobel Peace Prize. We have seen them whether the Nobel Peace Prize to South Africa has been a solution of the United Nations Peacekeeping Forces in Central America and Groel Turts, M Badait Guadom, Pak and Grameen Bank less in Alfred Nobel's will. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We hope that the Peace Prize is the struggle against poverty and support for the awards to the United Nations and the Security Coun
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3249Epoch 00000: loss improved from 1.32975 to 1.32486, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3249
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3235Epoch 00001: loss improved from 1.32486 to 1.32348, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3235
+Victims of South Korea in 1992 in 1978, a bold in Burmese agreement with the United Nations and in the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2017 to President Staria and Nobel Prize award to the United Nations Peacekeeping Forces have strategic support for the United Nations and the South African in the United Nations and the South African in the United Nations and the South African in the United Nations and international diverence. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2017 to President Stardap Government Burma and Shirin Ebadi, Lech Walesa because the Nobel Peace Prize is
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3191Epoch 00000: loss improved from 1.32348 to 1.31908, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3191
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3150Epoch 00001: loss improved from 1.31908 to 1.31507, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3151
+Victims of the Committee in 1988 to a struggle for the United Nations. The Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council has been awarded the Nobel Peace Prize for 2004. We hope that the Peace Prize has been awarded to the United Nations High Commissioner for Refugees. The Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council has been awarded the Nobel Peace Prize for the UN Security Council meant to the United Nations Peacekeeping Forces in America and Alfred Nobel wrote in the United Nations Peacekeeping Forces have shown that the Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2004. We hope that the Peace Prize has been awarded to the
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3143Epoch 00000: loss improved from 1.31507 to 1.31434, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3143
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3085Epoch 00001: loss improved from 1.31434 to 1.30843, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.3084
+Victims of Meadic Arse a goal in the security of the Nobel Peace Prize. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2014. It is the services that the Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council a solidarity of the Norwegian Nobel Committee to the United Nations High Commissioner for Refugees. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2014. It is the services that the Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council a solidarity of the Norwegian Nobel Committee to the United Nations High Commissioner for Refugees. The Norwegian Nobel Committee has deci
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3034Epoch 00000: loss improved from 1.30843 to 1.30347, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.3035
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2997Epoch 00001: loss improved from 1.30347 to 1.29970, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2997
+Victims of SCHA rugit shopted in the Greedom of Secretary-General Africa from China in 1993 to Book Adract Saken Sacrabias. The Nobel Peace Prize for 2013 to President Ganobach Sakharov and Frendar and Grameen Bank have been awarded the Nobel Peace Prize for 2004. We know that the Peace Prize would be a member of the United Nations and the Soviet Union and the Norwegian Nobel Committee has to a strong interest in the United Nations and the Soviet Union and the Norwegian Nobel Committee in Alfred Nobel's will. The European Union has accepted to the United Nations and the Nobel Peace Prize. We are a struggle against poverty and support for the oppo
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2971Epoch 00000: loss improved from 1.29970 to 1.29718, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2972
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2928Epoch 00001: loss improved from 1.29718 to 1.29272, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2927
+Victims of Nores Miknail Sau aboud Germa was attended by the League of Nations and Grameen Bank. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have a support of the Peace Prize to the UN Security Council has acted a significant respect for the Nobel Peace Prize to the United Nations and the Second World War the Peace Prize to the I am of the UN Certe Mother Teresa (1983), Marth PrSitive, John Guade, South Africa and Erie Wildell of Kim Dae-jung has a sense of a struggle for peace and reconciliation in I am arsure of the Nobel Peace Prize to the UN Security Council was actively in the
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2871Epoch 00000: loss improved from 1.29272 to 1.28707, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2871
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2847Epoch 00001: loss improved from 1.28707 to 1.28480, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2848
+Victims of the Committee in Alirh South Africa. The Committee was awarded the Nobel Peace Prize for 1996. The truth of Alfred Nobel's will is a mous in the United Nations Peacekeeping Forces in Africa and Seventary General Alfaint in Africa have been awarded the Nobel Peace Prize for 2002. There is a struggle against poverty and support for the Nobel Peace Prize. We can see how difficult is a distinctive active power of the world. The Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council meant the situation in Africa and the Soviet Union in China in the United Nations Peacekeeping Forces in Africa and Secretary-General
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2816Epoch 00000: loss improved from 1.28480 to 1.28171, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2817
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2797Epoch 00001: loss improved from 1.28171 to 1.27974, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2797
+Victims of the Committee in Birke Alfrinically a Peace Prize to Chilar Abolaa on the United Nations High Commissioner for Refugees, and the UN Security Council means in the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004 to Mother Tetu a concrete international conflicts in Africa and Starta Bentti Build of Stephera of John Robod Treati Turushe and Albert Lutuli (1988), Pakita, Elie Wiesel (1986) Sine Amais Sakeria of Secretary-General Security Securake was in Alfred Nobel's will straticied by the United Nations and the Second World War the struggle ag
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2737Epoch 00000: loss improved from 1.27974 to 1.27373, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2737
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2750Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2751
+Victims of EZornon: I adoltentientarian OPA wrow was alrowed to a struggle for a promotion of peace congresses. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We hope that the Peace Prize has been awarded to the UN Security Council a sources of activity of the world community of the United Nations Peacekeeping Forces in American General Assembly in America has stepted to the UN Security Council a won to support the Nobel Peace Prize to the UN Security Council a promition of state in the Finnish United Nations Peacekeeping Forces in Central America are to be a possible for peace. The Norwegian Nobel Committee has
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2689Epoch 00000: loss improved from 1.27373 to 1.26894, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2689
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2649Epoch 00001: loss improved from 1.26894 to 1.26488, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2649
+Victims of s the Secretary-General Bangladesh and the United States and the Soviet Union in 1993 the creation of the United Nations Peaceke population. The Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council a solidarity of the Norwegian Nobel Committee to the United Nations. The Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council a solidarity of the United Nations and the Second World War the struggle against poverty and struggle against the UN Security Council a provides of states. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2013 to the UN Secretary Gen
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2638Epoch 00000: loss improved from 1.26488 to 1.26374, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2637
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2691Epoch 00001: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2692
+Victims of Nazeanydanchic Leasel Manima Areete Laureate of the United States of Geneve John Humfor (1985), Norwegians have less the UN Security Council has been a struggle for peace. The Committee has awarded the Peace Prize to President Gorbachev has expressed the Union seese of the Indian peoples and the struggle against the UN Security Council a solitary the world in the Soviet Union in South Africa. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We hope that the Peace Prize has been awarded to the UN Security Council a problem of the United Nations Peacekeeping Forces in Africa and Shirin
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2599Epoch 00000: loss improved from 1.26374 to 1.25989, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2599
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2542Epoch 00001: loss improved from 1.25989 to 1.25417, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2542
+Victims of Necrecianm and Midial Turuste, Pa. ATKye, Parguagu, Rose Bangladesh and Sataaroco and Shorr Yiva and Trubalives, South African in 1986, and the Committee has awarded the Peace Prize to the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has awarded the Peace Prize to the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has awarded the Peace Prize to the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has awarded the Peace Prize to the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee has awarded the Peace Prize to the Nobel Peace Prize for 2004. We know that the Norwegian Nobel Committee
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2536Epoch 00000: loss improved from 1.25417 to 1.25364, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2536
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2505Epoch 00001: loss improved from 1.25364 to 1.25049, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2505
+Victims of Namirica, Mother Teresa inspired the Committee in Alfred Nobel's Peace Prize for 1996 for the Great Chapter of Crites President Garma Mammation and Churches and Grameen Bank have stablished by the United Nations Peacekeeping Forces have still to be awarded to the United Nations and the Second World War the tradety of the United Nations Peacekeeping Forces have shown that the Norwegian Nobel Committee wishes to achieve a number of a victor in the United Nations Peacekeeping Forces in Africa and Serbia and Shirin Ebadi arrest to the United Nations and the Security Council believe that the Norwegian Nobel Committee has awarded the Peace Prize for 1976. There
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2464Epoch 00000: loss improved from 1.25049 to 1.24637, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2464
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2521Epoch 00001: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2521
+Victims of Na. Gadden Grow in 1963. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2005 to Lech Walesa and the UN Security Council a prominible circums a struggle for peace. The Committee has awarded the Peace Prize to the UN Security Council a provisied conflict. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2005 to President Guoda of Moulcks were a long time. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2005 to President Guoda of Moulcos Alfare in 1996 for the UN Secretary General Africa to the United Nations Peacekeeping Forces in China in
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2426Epoch 00000: loss improved from 1.24637 to 1.24259, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2426
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2397Epoch 00001: loss improved from 1.24259 to 1.23957, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2396
+Victims of Nelegous Gremohorary, Laureate Lau Mandela was agreed in a struggle for a struggle for peace and standing armies. The Nobel Committee has awarded the Peace Prize to the UN Security Council has been awarded the Nobel Peace Prize for the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2005 to Laureates have the Nobel Peace Prize for 2004. We have a support of the Peace Prize to the UN Security Council has been awarded to the United Nations Peacekeeping Forces in Africa and Surdiky have firsted by the United Nations and the Security Council became a desperate in Africa and the Soviet Union in Alfred Nobel's will. The
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2412Epoch 00000: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2411
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2402Epoch 00001: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2402
+Victims of South Africa, the Committee in Americ Landmin Pamarie, Hotzer was to be a position to selfe to the country to Alergam than 1995 and the Nobel Committee in Alfred Nobel's will. The Esquivel was awarded the Nobel Peace Prize for 2011 to President Spubilam an unt of the Soviet Union in Alfred Nobel's will. The Nobel Committee has awarded the Peace Prize for 1990. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2010 to Boughtin Tutu to Bod. Laure Laure, South Africa and South Africa. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2011 to President Staint Landm, Ste
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2389Epoch 00000: loss improved from 1.23957 to 1.23891, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2389
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2338Epoch 00001: loss improved from 1.23891 to 1.23379, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2338
+Victims of Shires Kerma and Europe were the survives. The Committee has decided to award the Nobel Peace Prize for 2004. We have great support for the United Nations and the Secretary-General in the difficultic and contribute to the UN Security Council over the Soviet Union because they were not really been created in the struggle for peace. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have great support for the United Nations and the Secretary-General in the difficultic and contribute to the UN Security Council over the Soviet Union because they were not really been created in the struggle for peace. The Norwegian Nobel Committee has
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2273Epoch 00000: loss improved from 1.23379 to 1.22726, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2273
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2282Epoch 00001: loss did not improve
+398147/398147 [==============================] - 226s - loss: 1.2282
+Victims of Greeking Pamanam in Frideness. The Nobel Peace Prize for 1993 to Irle was to be in the lead to the United Nations. In 1975, he was a Strite a Church. His father was in South Africa. In 1981 she was awarded the Nobel Peace Prize for 1996 for the award of the Nobel Peace Prize for 1996 to China’s first states and the Soviet Union to the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2005 is to be difficult to the Nobel Peace Prize. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2000 to Shirin Ebadi a peaceful struggle for peace and disarmament and strategy and the struggle for peace
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2239Epoch 00000: loss improved from 1.22726 to 1.22394, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2239
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2217Epoch 00001: loss improved from 1.22394 to 1.22173, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2217
+Victims of South Africa (Bortie, Stemest was in African Africa. In Alib a a struggle against the UN Secretary-General of the United States in Alfred Nobel in Alfred Nobel in Secretary-General Jawne Be Ross Jenations, Berte Laureate Africa, Secretary-General Africa has been awarded the Nobel Peace Prize for 2013. In Buemas, Jod. See Agranst Tutua and Ahtisaari for the United Nations in China in the United Nations Peacekeeping Forces of Jimmy Carter in Europe aldost a struggle for peace and dostires and strategy to achieve a broad power to stand of course. In 1989 the Peace Prize
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2227Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2227
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2212Epoch 00001: loss improved from 1.22173 to 1.22123, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2212
+Victims of leaders in Bangladesh mover in the United Nations. The Nobel Committee has awarded the Nobel Peace Prize for 2017. The difficult contributions to meet the first time for peace and strategy structests. Mother Teresa's own struggle is refugees that the Norwegian Nobel Committee has awarded the Peace Prize to the United Nations High Commissioner for Refugees in Africa and South Africa. The course of the security of strength of Secretary-General Africa has been awarded the Nobel Peace Prize for the UN Security Council means in Bangladesh. The Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council mies Kouphams South
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2269Epoch 00000: loss did not improve
+398147/398147 [==============================] - 229s - loss: 1.2268
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2155Epoch 00001: loss improved from 1.22123 to 1.21548, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2155
+Victims of Mother Teresa, the Committee was awarded the Nobel Peace Prize for 2004. She would be a support of China and Kosovo in the United Nations Peacekeeping Forces of Tunisia and South Korea and Alfons Iras, and the Nobel Committee was in 1970. The absolution to the United Nations Peacekeeping Forces are a strategy of the United Nations High Commissioner for Refugees. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2002 to Shirin Ebadi has intervened to a struggle for a survives of the United Nations and the Secretary-General in the United Nations Peacekeeping Forces to state that the Norwegian Nobel Committee has awarded the Peace Prize for the U
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2142Epoch 00000: loss improved from 1.21548 to 1.21421, saving model to weights.hdf5
+398147/398147 [==============================] - 229s - loss: 1.2142
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2117Epoch 00001: loss improved from 1.21421 to 1.21169, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2117
+Victims of South Africa and Stiet Guenamable sack the South African Alfred Nobel and Tunisian Secretary-General Africa and Groep Brittend Aldact Laugodre is strong international struggle against the South African in the United Nations. In 1977, she was to be used to a sumple of strength of the Committee in Bangladesh. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We must be remotied that the Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We can see the situation of the United Nations Peacekeeping Forces are in the situation of the United Nations and the Norwegian Nobel Committee would
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2107Epoch 00000: loss improved from 1.21169 to 1.21076, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2108
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2087Epoch 00001: loss improved from 1.21076 to 1.20867, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2087
+Victims of Secretary-Goal and Greeve Albanios Mirste Mombert, Child Llag and Frack Laba Ja, the Norwegian Nobel Committee has seces in the Soviet Union in Secretary-General Colonel Arous, Kosi Alaonst Govempne Pain and the Assimbre of The Dacticre Powecan FacRams, Sadva UN miliation and South Africa and the country as a support for the Norwegian Nobel Committee wists to step the self-targete. But the Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have clear Nobel Peace Prize winner to be a positive for peace and strategy. The Norwegian Nobel Committee has decided to award
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2066Epoch 00000: loss improved from 1.20867 to 1.20669, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.2067
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2087Epoch 00001: loss did not improve
+398147/398147 [==============================] - 229s - loss: 1.2088
+Victims of 1946, on the Nobel Peace Prize for 1991. The Committee has awarded the Peace Prize to the Nobel Peace Prize for the light of the Secretary-General of the United Nations Peacekeeping Forces in Africa and Suriand and South Korea. The Norwegian Nobel Committee has awarded the prize to Peace Prize Laureate Alfred Nobel stred the Security Council a provest beniffes. In the last few years ago the Nobel Committee has decided to award the Nobel Peace Prize for 2002 to Judi and Rustice, and to Secretary-General Africa to the Soviet Union to the United Nations and the world in the world that are in the situation that has been a means of the Second World War the brotherhood of the st
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2037Epoch 00000: loss improved from 1.20669 to 1.20366, saving model to weights.hdf5
+398147/398147 [==============================] - 227s - loss: 1.2037
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2063Epoch 00001: loss did not improve
+398147/398147 [==============================] - 229s - loss: 1.2063
+Victims of his relimatess and Iran Boslova in 1989 he was awarded to the United Nations and in 1972. The first time in the Finnish Universal Declaration of Human Rights. In 1967, she took a society in Bangladesh and Badail South Africa and the Sterk Celund Sovth Branson Rusier, and the Norwegian Nobel Committee to President Germany and Europe were the struggle for a new tension and political activities. The Committee has decided to award the Nobel Peace Prize for 2004. She is a struggle against poverty and solutions. The Norwegian Nobel Committee has been awarded the Nobel Peace Prize for 2016 to Kim Dout Koslover Tutulu, Shirin Ebadi has been
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2653Epoch 00000: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2654
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3306Epoch 00001: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.3306
+Victims of Fre. But Banglade Real FNRT UN ILM) Amaricas Mothern Tutuzu and Greate Realore Koroa Alraement Nobel ENA world Sad adopt Nobel winner of the Norwegian Nobel Committee which he was to be achieved in the struggle for a new tension light for the first to the president of the United Nations. In 1977 he was a European Union in South Africa. The Norwegian Nobel Committee has awarded the Nobel Peace Prize for 2004. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the UN Security Council has stratenic and successful experiences in the world in the world in the first Peace Priz
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2528Epoch 00000: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2529
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2215Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2216
+Victims of Hirous Suavourab Movement in South Africa. The Norwegian Nobel Committee wishes to a doctrolm that the Norwegian Nobel Committee has awarded the Peace Prize to the UN Security Council in Burma's important strong and to be awarded the Peace Prize for 2004. She member of the Peace Prize is a stronger extent to achieve a broad power to support for the Nobel Peace Prize. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that the UN has stronger than a broad position and serious signicicans. The Nobel Committee has decided to award the Nobel Peace Prize for 2004. We know that a struggle against poverty and suppor
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2121Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2121
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.1998Epoch 00001: loss improved from 1.20366 to 1.19980, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.1998
+Victims of "I Immenuruition of Alir and Gorbacivam in Great December 2009, the President of the United States and Jewer Rams of Grameen Bank have sighed in the Soviet Union in 1992 against the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2000 to Shirin Ebadi and Alm Labari and Alfred Nobel's will. The Nobel Committee has awarded the prize to the Peace Prize to the UN Security Council has been a struggle. The Norwegian Nobel Committee has awarded the Peace Prize for their struggle for a struggle for human rights. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2000 to Shirin Ebad
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4024Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.4025
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.4518Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.4519
+Victims of veetia and Mues a social and extremic of the situation in Africa and the Norwegian Nobel Committee to award the Nobel Peace Prize for 2007. Although Union lack Severtary Burkhy be respect to the Peace Prize for 1976. There are several in the Committee today a support for the United Nations Peace Prize Laureates in America and Alfied South Africa. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have d for authorities in the United Nations Peace Prize Laureate Africa do not least to the United Nations. The Norwegian Nobel Committee has decided to actively a support to the United Nations. The award of the Peace
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3800Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.3800
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3420Epoch 00001: loss did not improve
+398147/398147 [==============================] - 229s - loss: 1.3419
+Victims of a. The other Aram should be go brea be actively to be a paristic feeling and in South Africa. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have d aubrildirable security in their childre. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004. We have d aubrildirable security and in the United Nations Peace Prize Laureates in the first time in the Norwegian Nobel Committee for the Peace Prize to the UN Security Council the Chira. This year the Nobel Peace Prize was awarded to President South Africa and the Soviet Union in South Africa. The Norwegian Nobel Committee has decided
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.3107Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.3108
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2907Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2906
+Victims of NIBe. The Nobel Peace Prize for 2004, Sit a replace society in Borgazen, Soduderussikes had larget to result the first Peace Prize. In the last few years ago so sacked a support for the Nobel Peace Prize to South Africa and the Soviet Union in the United Nations Turust and Grameen Bank for their own solution. But in the United Nations Turmement in the Soviet Union and the Norwegian Nobel Committee to the United Nations Peacekeeping Forcest President Gorbachev was to be a self-world disarmament and the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004 to Mother Teresa strong the United Nations. In 1
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2721Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2721
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2551Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2551
+Victims of modiation and Aloughop Sakharov and Peace Prize Laureate in 1980, the Norwegian Nobel Committee has awarded the Peace Prize for 1991. The struggle against poverty is a different context in Africa and the Norwegian Nobel Committee in Kosovo in the first Peace Prize in 1989. The award of the Peace Prize to South Africa has been a member of the United Nations. The Norwegian Nobel Committee has awarded the Peace Prize for 1997. The struggle for a struggle for human rights and the United Nations Turust Sakharov and Phelious Augosary the Committee has awarded the Peace Prize for the UN Secuetam of Frances. The Norwegian Nobel Committee has awarded
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2414Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2414
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2301Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2300
+Victims of 1946. The Nakiman Unest APETN TARTSy PEESes, "At the Soviet Union because of the Norwegian Nobel Committee in Kosovo to break out of the vicious circle of a struggle for human rights. The Norwegian Nobel Committee has awarded the prize to President Gorbachev and President of the UN Security Council has been a struggle to achieve a modecy and reality in the United Nations. The result of the Soviet Union between Europe Dualage and in a struggle against the United Nations Peacekeeping Forces in Africa and in the Norwegian Nobel Committee to the United Nations. The Norwegian Nobel Committee has awarded the prize
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2192Epoch 00000: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2192
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2127Epoch 00001: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2127
+Victims of encamal in a state in the security of the serong organization of the United Nations. He was awarded the Nobel Peace Prize for 2017. In Colombiam Shortia of BithaA a Arab Sprem of the United Nations High Commissioner for Refugees. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2004 to Jadulate Restructed Gret had been driven by the Nobel Peace Prize for 2004. We must be reluted to the UN Security Council has been a struggle to achieve a break out of the vicious circle of a struggle for human rights. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 1996 to Laureates and Albert Lutuli
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2074Epoch 00000: loss did not improve
+398147/398147 [==============================] - 227s - loss: 1.2074
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2041Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2041
+Victims of a AAN. The Dankaruagh may achies developments. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2003 to Judica Sadait Timetilu has serves to a suffering and strong women and the Soviet Union in Secrutie Certeration in Africa and in the legal of the United Nations. The Norwegian Nobel Committee has decided to award the Nobel Peace Prize for 2003 to Judria and Esquivel was awarded the Nobel Peace Prize for 2004. We have a men and women in Tunisia in the United Nations Peacekeeping Forces in Turus and Shuro Bank. We take that the UN has actively a support of the League of Nations and Alre African. The
+Epoch 1/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.1994Epoch 00000: loss improved from 1.19980 to 1.19938, saving model to weights.hdf5
+398147/398147 [==============================] - 228s - loss: 1.1994
+Epoch 2/2
+398000/398147 [============================>.] - ETA: 0s - loss: 1.2050Epoch 00001: loss did not improve
+398147/398147 [==============================] - 228s - loss: 1.2050   Using TensorFlow backend.
+
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    print(generateText(model, seedFrags))
+  File "test.py", line 112, in generateText
+    return createTextFromFragsList(seedFrags)
+  File "test.py", line 95, in createTextFromFragsList
+    x = x[0:j] + x[j].upper() + x[j + 1:len(x)]
+IndexError: string index out of range
+[ec2-user@ip-172-31-9-25 python]$
