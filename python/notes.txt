@@ -1,0 +1,15 @@
+let's give up on deep tweeter.
+
+ re deeptweeter - the chance that i would be able to generate meaningful text seems extremely unlikely.
+
+ goal is to respond to bad/mean tweets with relevant nice things to say, so the ML challenge is
+ appropriately fitting nice statements with the mean tweet.
+
+ new approach:
+
+ AutoThoughts
+
+ - have dataset of nice quotes.  per quote, have expanded form:  per non stopword, list of top 5 synonyms.
+ - then, for mean tweet, transform into nonstopword synonyms (root words including original)
+ - then use transformed tweet as search query for nice quote.
+ - get the reason for matching - the most-shared words/synonyms -- make these the hashtags

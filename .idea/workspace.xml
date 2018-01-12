@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="425525f2-4957-4552-b9e1-601125f675e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/aliceInWonderland.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/patternDotEnParser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/spacytokenizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python2/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python2/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python2/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python2/python2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/.idea/misc.xml" afterPath="$PROJECT_DIR$/python/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/.idea/workspace.xml" afterPath="$PROJECT_DIR$/python/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/outputsNotes.txt" afterPath="$PROJECT_DIR$/python/outputsNotes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/test.py" afterPath="$PROJECT_DIR$/python/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt" afterPath="$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <file leaf-file-name="kennedypeace.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/kennedypeace.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="470" column="1" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="1" />
-              <caret line="471" column="1" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="1" />
-              <caret line="472" column="1" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="1" />
-              <caret line="473" column="1" lean-forward="false" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="1" />
-              <caret line="474" column="1" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="1" />
-              <caret line="475" column="1" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="1" />
-              <caret line="476" column="1" lean-forward="false" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="1" />
-              <caret line="477" column="1" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="1" />
-              <caret line="478" column="1" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="1" />
-              <caret line="479" column="1" lean-forward="false" selection-start-line="479" selection-start-column="0" selection-end-line="479" selection-end-column="1" />
-              <caret line="480" column="1" lean-forward="false" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,23 +80,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aliceInWonderland.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1514091824000" expanded="true" signature="2172:2383" ph="..." />
+                <marker date="1514238861000" expanded="true" signature="2172:2383" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aliceInWonderland.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt">
+      <file leaf-file-name="historyOfBees.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/historyOfBees.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1125" selection-end-column="0" />
+            <state relative-caret-position="205800">
+              <caret line="13720" column="0" lean-forward="false" selection-start-line="13720" selection-start-column="0" selection-end-line="13720" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/nobelPeaceSince79.txt" />
         <option value="$PROJECT_DIR$/python/test.py" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt" />
       </list>
     </option>
   </component>
@@ -183,10 +194,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="78" />
-    <option name="width" value="1852" />
-    <option name="height" value="1107" />
+    <option name="x" value="330" />
+    <option name="y" value="87" />
+    <option name="width" value="1532" />
+    <option name="height" value="1073" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -259,18 +270,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dt2" type="b2602c69:ProjectViewProjectNode" />
               <item name="dt2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt2" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dt2" type="b2602c69:ProjectViewProjectNode" />
@@ -310,9 +318,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,15 +510,17 @@
       <workItem from="1513838361543" duration="45066000" />
       <workItem from="1514006554742" duration="2801000" />
       <workItem from="1514075192009" duration="710000" />
+      <workItem from="1514584076007" duration="192000" />
+      <workItem from="1515435918081" duration="31000" />
+      <workItem from="1515435974190" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48577000" />
+    <option name="totallyTimeSpent" value="48818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="78" width="1852" height="1107" extended-state="0" />
-    <editor active="true" />
+    <frame x="330" y="87" width="1532" height="1073" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -526,7 +534,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15745856" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19664429" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -555,6 +563,64 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="51" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514238861000" expanded="true" signature="2172:2383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/historyOfBees.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205800">
+          <caret line="13720" column="0" lean-forward="true" selection-start-line="13720" selection-start-column="0" selection-end-line="13720" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nobelPeaceSince79.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -600,7 +666,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514091824000" expanded="true" signature="2172:2383" ph="..." />
+            <marker date="1514238861000" expanded="true" signature="2172:2383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/fragsUnique.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="51" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514238861000" expanded="true" signature="2172:2383" ph="..." />
           </folding>
         </state>
       </provider>
@@ -650,7 +774,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514091824000" expanded="true" signature="2172:2383" ph="..." />
+            <marker date="1514238861000" expanded="true" signature="2172:2383" ph="..." />
           </folding>
         </state>
       </provider>
@@ -670,32 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/beesAndAlice.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="1079" column="25" lean-forward="true" selection-start-line="1079" selection-start-column="25" selection-end-line="1079" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/historyOfBees.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="13674" column="20" lean-forward="true" selection-start-line="13674" selection-start-column="20" selection-end-line="13674" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/kennedypeace.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -723,13 +825,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordsUnique.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/nobelPeaceSince79.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wholeWordIndices.txt" />
     <entry file="file://$PROJECT_DIR$/wholeWordsUnique.txt" />
     <entry file="file://$PROJECT_DIR$/fragIndices.txt" />
@@ -747,16 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514091824000" expanded="true" signature="2172:2383" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,21 +882,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/historyOfBees.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205800">
+          <caret line="13720" column="0" lean-forward="false" selection-start-line="13720" selection-start-column="0" selection-end-line="13720" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aliceInWonderland.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nobelPeaceSince79.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="470" column="1" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="1" />
-          <caret line="471" column="1" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="1" />
-          <caret line="472" column="1" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="1" />
-          <caret line="473" column="1" lean-forward="false" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="1" />
-          <caret line="474" column="1" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="1" />
-          <caret line="475" column="1" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="1" />
-          <caret line="476" column="1" lean-forward="false" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="1" />
-          <caret line="477" column="1" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="1" />
-          <caret line="478" column="1" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="1" />
-          <caret line="479" column="1" lean-forward="false" selection-start-line="479" selection-start-column="0" selection-end-line="479" selection-end-column="1" />
-          <caret line="480" column="1" lean-forward="false" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="400" column="29" lean-forward="false" selection-start-line="400" selection-start-column="29" selection-end-line="400" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kennedypeace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514238861000" expanded="true" signature="2172:2383" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

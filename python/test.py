@@ -151,6 +151,10 @@ for loop in range(0, 100000):
 # https://www.google.com/search?q=best+way+generate+text+lstm+word2vec+embedding&oq=best+way+generate+text+lstm+word2vec+embedding&aqs=chrome..69i57.11191j0j1&sourceid=chrome&ie=UTF-8
 
 # https://github.com/keras-team/keras/issues/853
+
+# https://stackoverflow.com/questions/18946017/is-there-a-way-to-install-the-nodebox-english-linguistics-library-through-pip-in
+
+#http://textminingonline.com/getting-started-with-pattern
 '''
  the Embedding class does indeed map discrete labels (i.e. words) into a continuous vector space. It should be just as clear that this embedding does not in any way take the semantic similarity of the words into account. Check the source code if want to see it even more clearly.
 

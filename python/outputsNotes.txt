@@ -420,3 +420,14 @@ Traceback (most recent call last):
     x = x[0:j] + x[j].upper() + x[j + 1:len(x)]
 IndexError: string index out of range
 [ec2-user@ip-172-31-9-25 python]$
+
+https://www.nodebox.net/code/index.php/Linguistics#verb_conjugation
+https://www.clips.uantwerpen.be/pages/mbsp-tags
+https://www.clips.uantwerpen.be/pages/pattern-en
+>>> print parse('I am eating food.', relations=True, lemmata=True)
+>>> from pattern.en import conjugate, lemma, lexeme, parse
+>>> print conjugate('purred', '3sg')
+purrs
+>>> print conjugate('purred', 'part')
+purring
+>>>
