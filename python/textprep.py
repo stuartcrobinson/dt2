@@ -1,6 +1,6 @@
 import re
 
-from PIL.WmfImagePlugin import word
+# from PIL.WmfImagePlugin import word
 from nltk import pos_tag
 import nltk
 from nltk.corpus import wordnet as wn
@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 # import capsParser
-from pattern.en import parse, comparative, superlative, pluralize
+from pattern.en import parse, comparative, superlative, pluralize, conjugate
 
 wnl = WordNetLemmatizer()
 
@@ -29,9 +29,8 @@ use these for caps chars:
 ▝ -8
 ▗ -9
 ▖ -10 
-'''
 
-'''
+# utf8 shapes http://www.fileformat.info/info/charset/UTF-8/list.htm?start=8000
 
 input a word.  
 
@@ -56,8 +55,7 @@ capschar(5)
 sAlaDS
 
 len = 6
- fuck it let's try it.  i think i works.
-
+... eh let's just try it
 '''
 
 capsCharsList = ['█' , '▟' , '▙' , '▛' , '▜' , '▞' , '▚' , '▘' , '▝' , '▗' , '▖']
@@ -83,18 +81,18 @@ m_capChar_i = dict((c, i) for i, c in enumerate(capsCharsList))
 
 
 def getCapsChars(word):
+#     print('  in getCapsChars')
     if word.isupper():
         return [m_i_capChar[0]]
     wordlen = len(word)
-    
     capsChars = []
-    
     capsCount = 0
     for i in range(0, wordlen):
         letterIndex = wordlen - 1 - i
         letter = word[letterIndex]
         if letter.isupper():
             capsChars = [m_i_capChar[wordlen - i + capsCount]] + capsChars
+#             print('    capsChars:', capsChars, 'word: ', word)
             capsCount += 1
     return capsChars
 
@@ -136,32 +134,6 @@ def capitalizeWord(word, capsChars):
 ##################################################################################################################################################################
 
  
-#
-# 1.  split corpus at spaces and punct:
-# https://stackoverflow.com/questions/1059559/split-strings-with-multiple-delimiters
-# https://stackoverflow.com/a/16840963/8870055
-def getAdverbRoot(adverb):
-    winner = ""
-    try:
-        wordtoinv = adverb
-        s = []
-        for ss in wn.synsets(wordtoinv):
-            for lemmas in ss.lemmas():  # all possible lemmas.
-                s.append(lemmas)
-        for pers in s:
-            posword = pers.pertainyms()[0].name()
-            if posword[0:3] == wordtoinv[0:3]:
-                winner = posword
-                break
-    except IndexError:
-        pass
-    # print(winner) # undue
-    # print("in getAdverbRoot: input: " + adverb + ", result: <" + winner + ">")
-    if winner == '':
-        return adverb
-    else:
-        return winner
-
 
 # TODO what if not found?
 def getAdjectiveRoot(superlativeOrComparative):
@@ -173,6 +145,8 @@ def isGerund(word):
 
 
 def getGerundRoot(gerund):
+    if gerund == "piping":
+        return "pipe"
     return WordNetLemmatizer().lemmatize(gerund, 'v')
 
 # think about 'quickening' - nested lemmas
@@ -193,8 +167,10 @@ def postParse(patternParsed):
     #
     unsupportedPosSet = set(['MD'])
     # adverb - get root adjective
+#     print(word, root, pos)
     if pos in unsupportedPosSet:
-        root = word
+#         print('yes pos in unspported pos set!')
+        root = word.lower()
     elif pos == 'RB':
         root = getAdverbRoot(root)
     #
@@ -203,95 +179,215 @@ def postParse(patternParsed):
         root = getAdjectiveRoot(root)
     #
     # ends in ing - pattern.en fails to parse swimming and eating.  but works for talking (talk, VBG)
-    elif root[-3:] == 'ing':
+    # TODO start here = fails for piping, stopping, etc
+    #     ''' TODO  - can't do this manually :('''
+    elif root[-3:] == 'ing' and root == word.lower():
         if isGerund(root):
             root = getGerundRoot(root)
             pos = 'VBG'
     return word, root, posChar + pos
 
 
-'''
-use these for caps chars:
-█ - all caps
-▟ -1
-▙ -2
-▛ -3
-▜ -4
-▞ -5
-▚ -6
-▘ -7
-▝ -8
-▗ -9
-▖ -10 
-'''
+roots_to_ignore = set(["fee", "layer", "be", "re-cover", "blac"])
+words_to_ignore = set([])
 
-# utf8 shapes http://www.fileformat.info/info/charset/UTF-8/list.htm?start=8000
-
-
-# accepts an array like [quickening] or [quicken, VBG] or [quick,
-def getBroken(atoms):
-    # print(str(atoms))
-    word = atoms[0]
-    if len(word) == 1:
+def getBroken(word):
+#     print('in get broken. word: ', word)
+    ''' returns word parsed into array of caps chars, word root, and POS tag if any''' 
+    if word.isspace():
         return [word]
     returner = []
+    if word in words_to_ignore:
+        return getCapsChars(word) + [word.lower()]
     patternParsedList = parse(word, relations=True, lemmata=True).split()[0]
-    # print("patternParsedList: " + str(patternParsedList))
     for patternParsed in patternParsedList:
         word, root, pos = postParse(patternParsed)
-        #
-        if root == word:
-            returner += [word]
+        capsChars = []
+        wordHasCaps = not word.islower()
+#         print("wordHasCaps", wordHasCaps)
+#         print(word, root, pos)
+        if wordHasCaps:
+            capsChars = getCapsChars(word)
+        wordLower = word.lower() if wordHasCaps else word
+#         if pos in unsupportedPoss:
+#             returner += capsChars + [wordLower]
+        if root == wordLower:
+            ''' this means there are no POS tags we need to keep '''
+            returner += capsChars + [wordLower]
         else:
-            # newAtoms = [root, pos] + atoms[1:]
-            # returner += getBroken([root, pos])
-            returner += [root, pos]
-    return returner + atoms[1:]
+            if root in roots_to_ignore or "'" in word or "‘" in word  or "’" in word :
+                returner += capsChars + [wordLower]     #was, were, am, are -- these words get tokenized/untokenized unreliably. :(
+            else:
+                returner += capsChars + [root, pos]
+    return returner
+
+# getBroken(str)
 
 
-def displayParsed(text):
-    text = text.lower()
-    text = text.replace('′', "'")
-    text = text.replace('‘', "'")
-    text = text.replace('’', "'")
-    text = text.replace('“', '"')
-    text = text.replace('”', '"')
-    text = text.replace('“', '"')
-    text = text.replace('”', '"')
-    ar = re.split('([^\w\'′]|_| )', text) 
-    ar = list(filter(None, ar))
-    # print(*ar, sep='\n')
-    for s in ar:
-        wordAtoms = getBroken([s])
-        print('orig: <' + str(s) + '> broken: ' + str(wordAtoms))
-
-
-def getParsed(text):
-    # TODO caps chars
+#         text = text.replace('′', "'")
+#         text = text.replace('‘', "'")
+#         text = text.replace('’', "'")
+#         text = text.replace('“', '"')
+# 
+# def displayParsed(text):
 #     text = text.lower()
-    text = text.replace('′', "'")
-    text = text.replace('‘', "'")
-    text = text.replace('’', "'")
-    text = text.replace('“', '"')
-    text = text.replace('”', '"')
-    text = text.replace('“', '"')
-    text = text.replace('”', '"')
-    ar = re.split('([^\w\'′]|_| )', text) 
+#     text = text.replace('′', "'")
+#     text = text.replace('‘', "'")
+#     text = text.replace('’', "'")
+#     text = text.replace('“', '"')
+#     text = text.replace('”', '"')
+#     text = text.replace('“', '"')
+#     text = text.replace('”', '"')
+#     ar = re.split('([^\w\'′]|_| |-)', text) 
+#     ar = list(filter(None, ar))
+#     # print(*ar, sep='\n')
+#     for s in ar:
+#         wordAtoms = getBroken([s])
+#         print('orig: <' + str(s) + '> broken: ' + str(wordAtoms))
+
+
+def parseCapitalization(wordAtoms):
+    return wordAtoms
+
+
+
+def tokenize(text, stupidifyQuotes=True):
+#     print("in tokenize")
+    if stupidifyQuotes:
+        text = text.replace('′', "'")
+        text = text.replace('‘', "'")
+        text = text.replace('’', "'")
+        text = text.replace('“', '"')
+        text = text.replace('”', '"')
+        text = text.replace('“', '"')
+        text = text.replace('”', '"')
+    ar = re.split('([^\w\'′]|_| )', text)     
     ar = list(filter(None, ar))
     parsed = []
     for s in ar:
-        capsChars = getCapsChars(s)
-        s = s.lower()
-        wordAtoms = getBroken([s])
-        print('wordAtoms', wordAtoms)
-        print('capsChars', capsChars)
-        print('type(capsChars)', type(capsChars))
+        capsChars = []
+#         s = s.lower()
+#         print("s: ", s)
+        wordAtoms = getBroken(s)
+#         print('  wordAtoms', wordAtoms)
+#         print('  capsChars', capsChars)
+#         print('  type(capsChars)', type(capsChars))
+        parsed_ = parseCapitalization(wordAtoms)
         parsed += capsChars + wordAtoms
-        print('parsed', parsed)
+#         print('  parsed', parsed)
     return parsed
 
 
-def myUntokenize(atom, pos):
+#
+# 1.  split corpus at spaces and punct:
+# https://stackoverflow.com/questions/1059559/split-strings-with-multiple-delimiters
+# https://stackoverflow.com/a/16840963/8870055
+# https://stackoverflow.com/questions/17245123/getting-adjective-from-an-adverb-in-nltk-or-other-nlp-library
+def getAdverbRoot(adverb):
+    if adverb == 'ceremonially':
+        return "ceremonial"
+    if adverb == 'intensively':
+        return 'intensive'
+    if adverb == 'underhandedly':
+        return 'underhanded'
+    if adverb == 'effectively':
+        return 'effective'
+    if adverb == 'primarily':
+        return 'primary'
+    if adverb == 'uncontrollably':
+        return 'uncontrollable'
+    if adverb == 'palely':
+        return 'pale'
+    winner = ""
+    try:
+        wordtoinv = adverb
+        s = []
+        for ss in wn.synsets(wordtoinv):
+            for lemmas in ss.lemmas():  # all possible lemmas.
+                s.append(lemmas)
+        for pers in s:
+            posword = pers.pertainyms()[0].name()
+#             print(posword)
+            if posword[0:3] == wordtoinv[0:3]:
+                winner = posword
+                break
+    except IndexError:
+        pass
+    if winner == '':
+        return adverb
+    else:
+        return winner
+
+
+'''
+failed adverbs:
+
+intensively      intensely
+untruly          untruely        (other ue words fit the rule)
+underhandedly    underhandly
+truly            truely
+adjectively      adjectivally        - not words
+ceremonially     ceremoniously
+futilely         futily
+unduly           unduely
+shrilly          shrillly
+fully            fullly
+
+wryly wrily ---- wry wrily
+shyly shily ---- shy shily
+adjectively adjectivally ---- adjectival adjectivally
+spatially spacially ---- spacial spacially
+piping pipping ---- piping pipingly
+publicly publically ---- public publically
+effectively efficaciously ---- efficacious efficaciously
+vilely vily ---- vile vily
+agilely agily ---- agile agily
+coyly coily ---- coy coily
+primarily principally ---- principal principally
+uncontrollably uncontrolledly ---- uncontrolled uncontrolledly
+aborad aborally ---- aboral aborally
+palely pallidly ---- pallid pallidly
+wholly wholy ---- whole wholy
+
+
+
+'''
+
+m_adjective_adverb_special = {
+    'futile':'futilely',
+    'untrue':'untruly',
+    'true':'truly',
+    'undue':'unduly',
+    'wry':'wryly',
+    'shy':'shyly',
+    'spacial':'spatially',
+    'public':'publicly',
+    'vile':'vilely',
+    'agile':'agilely',
+    'coy':'coyly',
+    'aborad':'aborally',
+    'pale':'palely',
+    'whole':'wholly',
+    }
+
+def getAdverb(word):
+    if word in m_adjective_adverb_special:
+        return m_adjective_adverb_special[word]
+    if word[-1:] == 'y':                #hasty
+        return word[:-1] + 'ily'
+    if word[-2:] == 'le':               #probable responsible subtle
+        return word[:-1] + 'y'
+    if word[-1:] == 'c':               #probable responsible subtle
+        return word + 'ally'
+    if word[-2:] == 'll':               #probable responsible subtle
+        return word + 'y'
+    if word[-2:] == 'll':               #probable responsible subtle
+        return word + 'y'
+    return word + 'ly'
+
+
+#metrically
+def applyPosTag(atom, pos):
 #     print('untokeninzing', atom, pos)
     '''
     https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
@@ -320,7 +416,7 @@ def myUntokenize(atom, pos):
 #     if pos == 'PRP':
 #     if pos == 'PRP':
     if pos == 'RB':
-        return atom + 'ly'
+        return getAdverb(atom)
     if pos == 'RBR':
         return comparative(atom)
     if pos == 'RBS':
@@ -332,8 +428,16 @@ def myUntokenize(atom, pos):
     if pos == 'VB': 
         return conjugate(atom, 'inf')
     if pos == 'VBD':
+        if atom == "smell":
+            return "smelled"
+        if atom == "dream":
+            return "dreamed"
+        if atom == "grip":
+            return "gripped"
         return conjugate(atom, 'p')
     if pos == 'VBG':
+        if pos == "pip":
+            return "piping"
         return conjugate(atom, 'part')
     if pos == 'VBN':
         return conjugate(atom, 'ppart')
@@ -349,26 +453,26 @@ def myUntokenize(atom, pos):
     return prevAtoms + pos
 
 
-def myUnparse(atoms):
+def untokenizeWrong(atoms_):
+    atoms = atoms_[:]
     capsChars = []
     i = 0
     while i < len(atoms):
         atom = atoms[i]
-        print('main i', i)
-        print('main atom', atom)
-        print('main atoms', atoms)
+#         print('main i', i)
+#         print('main atom', atom)
+#         print('main atoms', atoms)
         if atom in capsCharsList:
-            print('found caps char')
+#             print('found caps char')
             capsChars += [atom]
-            print('capsChars', capsChars)
-            print('atoms', atoms)
-            print('i', i)
+#             print('capsChars', capsChars)
+#             print('atoms', atoms)
+#             print('i', i)
             del atoms[i]
-            print('after remove')
-            print('atoms', atoms)
-            i -= 1
-            print('i', i)
-            print('capsChars', capsChars)
+#             print('after remove')
+#             print('atoms', atoms)
+#             print('i', i)
+#             print('capsChars', capsChars)
             continue
         if atom[0] == posChar:
 #             if i == 0:    #will never happen prob
@@ -377,17 +481,58 @@ def myUnparse(atoms):
             prevAtom = atoms[i - 1]
             del atoms[i]
             i -= 1
-            atoms[i] = myUntokenize(prevAtom, pos)
+            atoms[i] = applyPosTag(prevAtom, pos)
         if len(capsChars) > 0:
-            print('capschars non empty!')
-            print('atom', atom)
-            print('capsChars', capsChars)
-            print('capitalizeWord', capitalizeWord(atom, capsChars))
+#             print('capschars non empty!')
+#             print('atom', atom)
+#             print('capsChars', capsChars)
+#             print('capitalizeWord', capitalizeWord(atom, capsChars))
             atoms[i] = capitalizeWord(atom, capsChars)
-            print('after edit')
-            print('atoms', atoms)
+#             print('after edit')
+#             print('atoms', atoms)
             capsChars = []
-    i += 1
+        i += 1
+    return ''.join(atoms)
+
+
+
+
+
+
+def untokenize(atoms):
+    ''' have to go backwards from the end to untokenize words before applying correct caps '''
+#     atoms = atoms_[:]
+    capsChars = []
+    i = len(atoms)
+    while i >= 0:
+        i -= 1
+        atom = atoms[i]
+        if atom[0] == posChar:
+            pos = atom[1:]  # remove the leading posChar
+            prevAtom = atoms[i - 1]
+            del atoms[i]
+            i -= 1
+            result = applyPosTag(prevAtom, pos)
+            if result == None:
+                raise Exception("nonetype found 1, ", prevAtom, pos, result)
+            atoms[i] = result
+            continue
+        if atom in capsCharsList:
+            capsChars = [atom] + capsChars
+            del atoms[i]
+            while atoms[i - 1] in capsCharsList and i > 1:
+                ''' now build entire capsChars array - and delete them from atoms as u go'''
+                i -= 1
+                capsChars = [atoms[i]] + capsChars
+                del atoms[i]
+            if i < len(atoms):
+                atoms[i] = capitalizeWord(atoms[i], capsChars)
+                if atoms[i] == None:
+                    raise Exception("nonetype found 2")
+                capsChars = []
+            else:
+                raise Exception("there wasn't a word to capitalize, after caps chars")
+    return ''.join(atoms)
 
 
 '''
@@ -403,24 +548,48 @@ then, get texts, read texts, build word2vec (or glove????) embedding, then use t
 
 # str = "Mrs. Stephens took in her long flowing auburn hair, her slightly pale face with large blue eyes. She wore a fair bit of make up, with blue eyeshadow filling her eyelids and deep red lipstick emphasisng her lips. She wore clothes Severus could only identify as a Muggles mini dress mixed with a traditional witch's corset."
 # str = "do you want an apple or a carrot"
-# print(getParsed(str))
+# print(tokenize(str))
 
-# str = """‘How queer it seems,’ Alice said to herself, ‘to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!’ And she began fancying the sort of thing that would happen: ‘“Miss Alice! Come here directly, and get ready for your walk!” “Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.” Only I don’t think,’ Alice went on, ‘that they’d let Dinah stop in the house if it began ordering people about like that!’
-# By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves: she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass. There was no label this time with the words ‘DRINK ME,’ but nevertheless she uncorked it and put it to her lips. ‘I know something interesting is sure to happen,’ she said to herself, ‘whenever I eat or drink anything; so I’ll just see what this bottle does. I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!’
-# It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, saying to herself ‘That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!’""" 
 
+str = """‘How queer it seems,’ Alice said to herself, ‘to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!’ And she began fancying the sort of thing that would happen: ‘“Miss Alice! Come here directly, and get ready for your walk!” “Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.” Only I don’t think,’ Alice went on, ‘that they’d let Dinah stop in the house if it began ordering people about like that!’
+By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves: she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass. There was no label this time with the words ‘DRINK ME,’ but nevertheless she uncorked it and put it to her lips. ‘I know something interesting is sure to happen,’ she said to herself, ‘whenever I eat or drink anything; so I’ll just see what this bottle does. I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!’
+It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, saying to herself ‘That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!’""" 
 
 # str = ' afterward already almost back better best even far fast hard here how late long low more near never next now often quick rather slow so soon still then today tomorrow too very well where yesterday quickly eat the pizzas' 
-str = 'QUICK eat the pizzas'
-atoms = getParsed(str)
-print(atoms)
 
-print()
-myUnparse(atoms)
-print(atoms)
 
-print()
-print(str)
-print()
-print(''.join(atoms))
+def asdf(str):
+#     str = 'QUICK eat the pizzas'
+    atoms = tokenize(str, stupidifyQuotes=False)
+    atoms2 = atoms[:]
+    untokenized = untokenize(atoms2)
+    print()
+    print(str)
+    print()
+    print(atoms)
+    print()
+    print("scr untokenized")
+    print(untokenized)
+
+
+def test(str):
+    atoms = tokenize(str, stupidifyQuotes=False)
+    atoms2 = atoms[:]
+    untokenized = untokenize(atoms2)
+    strSplit = str.split(' ')
+    untSplit = untokenized.split(' ')
+    print('here')
+    for i in range(0, len(strSplit)):
+        if (strSplit[i] != untSplit[i]):
+            print(strSplit[i], untSplit[i], "----", getAdverbRoot(strSplit[i]),  getAdverb(getAdverbRoot(strSplit[i])))
+
+
+with open ("aliceInWonderland.txt", "r") as myfile:
+    data=myfile.read()
+
+# test(data)
+# asdf('"‘How queer it seems,’')
+# 
+# word = "'How'"
+# parse(word, relations=True, lemmata=True)
 
